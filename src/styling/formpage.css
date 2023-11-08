@@ -5,7 +5,7 @@
 }
 
 .filter-search-container {
-  width: 58%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,17 +41,8 @@
 
 .filter-search-container div input {
   border: none;
-  padding: 7px 15px;
+  padding: 7px;
   border-radius: 9px;
-}
-
-.table-container {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  gap: 40px;
-  margin-left: 30px;
-  overflow: hidden;
 }
 
 .overlay {

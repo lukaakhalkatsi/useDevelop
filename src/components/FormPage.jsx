@@ -51,7 +51,15 @@ export default function FormPage() {
           <input type="text" />
         </div>
       </div>
-      <div className="table-container">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "start",
+          alignItems: "start",
+          gap: "40px",
+          marginLeft: "30px",
+        }}
+      >
         <FilterBox
           activeFilter={activeFilter}
           setActiveFilter={setActiveFilter}

@@ -8,7 +8,7 @@ export default function PopUp({ userName, selectedFile, setIsOpenPopup }) {
 
     // Navigate to the LandingPage
     setIsOpenPopup(false); // Close the popup
-    window.location.href = "/registration"; // This will navigate to the LandingPage
+    window.location.href = "/"; // This will navigate to the LandingPage
   };
 
   return (
