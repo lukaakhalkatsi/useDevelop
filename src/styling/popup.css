@@ -1,0 +1,60 @@
+.popup-container {
+  width: 500px;
+  height: 500px;
+  background-color: lightblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 11px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  height: 100%;
+}
+
+.username {
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 500;
+}
+
+.content-container img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+.quote {
+  font-size: 25px;
+  text-align: center;
+}
+
+.signout-btn {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 7px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  border: none;
+  background: none;
+  color: red;
+  font-size: 25px;
+  font-style: bold;
+  font-weight: 700;
+  cursor: pointer;
+}
